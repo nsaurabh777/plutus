@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "plutus"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.4"
+yfinance = "^0.2.33"
+lxml = "^4.9.3"
+streamlit = {version = "^1.29.0", python = "3.9.12"}
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
